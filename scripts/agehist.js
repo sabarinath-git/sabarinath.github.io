@@ -28,7 +28,7 @@ function draw_agehist() {
 
 	//d3.csv("data/2c_titanic_agebin_surv.csv", function(error, data) {
 	//d3.csv("https://github.com/sabarinath-git/titanic_d3js/tree/master/data/2c_titanic_agebin_surv.csv", function(error, data) {	
-	d3.csv("2c_titanic_agebin_surv.csv", function(error, data) {	
+	d3.csv("/2c_titanic_agebin_surv.csv", function(error, data) {	
         if (error) {
             throw error;
         }
