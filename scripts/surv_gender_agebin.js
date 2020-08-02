@@ -45,7 +45,8 @@ function draw_surv_gender_agebin() {
 	}
  
 	//d3.csv("../data/3_age_gen_surv_counts.csv", function(error, data) {
-	d3.csv("https://github.com/sabarinath-git/titanic_d3js/tree/master/data/3_age_gen_surv_counts.csv", function(error, data) {
+	//d3.csv("https://github.com/sabarinath-git/titanic_d3js/tree/master/data/3_age_gen_surv_counts.csv", function(error, data) {
+	d3.csv("3_age_gen_surv_counts.csv", function(error, data) {
 	  var columnHeaders = d3.keys(data[0]).filter(function(key) { return key !== "age_bin"; });
 	  //console.log(columnHeaders);
 	  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "age_bin"; }));
